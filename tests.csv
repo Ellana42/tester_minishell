@@ -1,7 +1,7 @@
 ,entry,output,last_exit,notes
-23,$> \n (touche entrée),$>,Exit de l'ancienne commande,
-24,$> [que des espaces],,0,
-25,$> [que des tabulations],,0,Crl + V + Tab
+23,$> ,$>,Exit de l'ancienne commande,
+24,$>     ,,0,
+25,$>			,,0,Crl + V + Tab
 26,$> :,,0,"Marche aussi pour ""#"""
 27,$> !,,1,
 28,$> >,"bash: syntax error near
@@ -325,8 +325,8 @@ $>",0,
 213,$> Ctlr-D,"$> exit
 ~/minishell $>",0,Sort du programme
 214,$> hola Ctlr-D,$> hola,/,Ne fait rien
-215,$> Ctlr-\,$>,/,Ne fait rien
-216,$> hola Ctlr-\,$> hola,/,
+215,$> Ctlr-\\,$>,/,Ne fait rien
+216,$> hola Ctlr-\\,$> hola,/,
 217,$> cat (faire Ctlr-\ apres avoir fait plusieurs fois [ENTREE]),"
 
 
